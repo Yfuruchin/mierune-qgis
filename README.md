@@ -55,7 +55,7 @@ https://tile.cdn.mierune.co.jp/styles/MIERUNE/{z}/{x}/{y}.png?key=xxxx
  
 <br>
 
-3. New Connection実行 
+3. New Connection実行 
 ![README06](./img/README06.png)
 
 <br>
