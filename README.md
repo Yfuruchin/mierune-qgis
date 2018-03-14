@@ -4,9 +4,83 @@
 
 ## Getting Started
 
+<br>
+
+## XYZ Tiles (QGIS v3.0, v2.18)
+
 ### MIERUNE地図表示 -「Free」プラン
 
 ![MIERUNE地図表示 -「Free」プラン](./img/img_001.gif)
+
+TileURL
+```
+https://tile.mierune.co.jp/mierune/{z}/{x}/{y}.png  
+https://tile.mierune.co.jp/mierune_mono/{z}/{x}/{y}.png  
+```
+
+<br>
+
+---
+
+<br>
+
+### MIERUNE地図表示 -「Standard, Premium, Global Scale」プラン
+
+![MIERUNE地図表示 -「Standard, Premium, Global Scale」プラン](./img/img_002.gif)
+
+TileURL
+```
+https://tile.cdn.mierune.co.jp/styles/normal/{z}/{x}/{y}.png?key=xxxx  
+https://tile.cdn.mierune.co.jp/styles/gray/{z}/{x}/{y}.png?key=xxxx  
+https://tile.cdn.mierune.co.jp/styles/bright/{z}/{x}/{y}.png?key=xxxx  
+https://tile.cdn.mierune.co.jp/styles/blue/{z}/{x}/{y}.png?key=xxxx  
+https://tile.cdn.mierune.co.jp/styles/warm/{z}/{x}/{y}.png?key=xxxx  
+https://tile.cdn.mierune.co.jp/styles/MIERUNE/{z}/{x}/{y}.png?key=xxxx  
+```
+- 上記URLにapikeyを追加  
+
+
+<br>
+
+---
+
+<br>
+
+### 使用方法
+1. QGISを起動  
+
+<br>
+
+2. 標準機能の「XYZ Tiles」メニューを右クリック 
+ 
+<br>
+
+3. New Connection実行 
+![README06](./img/README06.png)
+
+<br>
+  
+4. 名前とURLを設定 
+![README07](./img/README07.png)
+  
+<br>
+
+5. 表示したい地図を選択するとMIERUNE地図が表示
+
+
+<br><br>
+
+---
+
+<br><br>
+
+
+
+## TileLayerPlugin (QGIS v2.14)
+
+### MIERUNE地図表示 -「Free」プラン
+
+![MIERUNE地図表示 -「Free」プラン](./img/img_003.gif)
 
 example path
 ```
@@ -22,7 +96,7 @@ example path
 
 ### MIERUNE地図表示 -「Standard, Premium, Global Scale」プラン
 
-![MIERUNE地図表示 -「Standard, Premium, Global Scale」プラン](./img/img_002.gif)
+![MIERUNE地図表示 -「Standard, Premium, Global Scale」プラン](./img/img_004.gif)
 
 example path
 ```
