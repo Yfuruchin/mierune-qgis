@@ -48,7 +48,7 @@ https://tile.cdn.mierune.co.jp/styles/MIERUNE/{z}/{x}/{y}.png?key=xxxx
 
 ### 使用方法
 
-単体登録
+### 単体登録
 
 <br>
 
@@ -74,7 +74,7 @@ https://tile.cdn.mierune.co.jp/styles/MIERUNE/{z}/{x}/{y}.png?key=xxxx
 
 <br><br>
 
-一括登録
+### 一括登録
 
 <br>
 
