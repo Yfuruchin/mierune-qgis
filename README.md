@@ -6,7 +6,7 @@
 
 <br>
 
-## XYZ Tiles (QGIS v3.0, v2.18)
+## XYZ Tiles (QGIS v3.2, v3.0, v2.18)
 
 ### MIERUNE地図表示 -「Free」プラン
 
@@ -47,6 +47,11 @@ https://tile.cdn.mierune.co.jp/styles/MIERUNE/{z}/{x}/{y}.png?key=xxxx
 <br>
 
 ### 使用方法
+
+単体登録
+
+<br>
+
 1. QGISを起動  
 
 <br>
@@ -67,6 +72,20 @@ https://tile.cdn.mierune.co.jp/styles/MIERUNE/{z}/{x}/{y}.png?key=xxxx
 
 5. 表示したい地図を選択するとMIERUNE地図が表示
 
+<br><br>
+
+一括登録
+
+<br>
+
+![XYZ Tiles一括登録](./img/img_005.gif)
+
+![README08](./img/README08.png)
+
+example path
+```
+./src/tile.xml
+```
 
 <br><br>
 
